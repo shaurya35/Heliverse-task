@@ -1,0 +1,35 @@
+.header{
+    height: 3.375rem;
+    background-color: var(--advertise-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo_envato{
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.logo_envato_img{
+    width: 9.5rem;
+}
+
+.header_button{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    padding: 0.43rem 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--advertise-button);
+    box-shadow: 0 2px 0 var(--advertise-background);
+    border-radius: 0.25rem;
+}
+
+.button_buynow{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
