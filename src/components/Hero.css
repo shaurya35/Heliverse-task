@@ -1,0 +1,106 @@
+.section_outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.section{
+    height: 43rem;
+    width: 87rem;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: row;
+    padding: 5rem 0rem;
+}
+
+.section_box1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 21rem;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.section_box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 42.5rem;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.box1_b1{
+
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.box1_b2{
+    position: relative;
+    width: 50%;
+}
+
+.box1_b1_text1{
+    font-family: "Sora", Sans-serif;
+    background: var(--linear-gradient);
+    background-clip: text;
+    color: transparent;
+    font-size: 1.28rem;
+    font-weight: 500;
+}
+
+.box1_b1_text2{
+    padding-top: 1.25rem;
+    font-family: "Outfit", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--primary-white);
+}
+
+.box2_b1{
+    height: 35rem;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.box2_b2{
+    height: calc(100% - 20rem);
+    width: 100%;
+    /* background-color: cadetblue; */
+}
+
+.box2_b1_text1{
+    font-family: "Sora", Sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: var(--primary-white);
+}
+
+.box2_b1_text2{
+    font-family: "Sora", Sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    background: var(--linear-gradient);
+    background-clip: text;
+    color: transparent;
+}
+
+.box2_b2{
+    font-family: "Outfit", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--primary-gray);
+    /* background-color: red; */
+    line-height: 1.7;
+}

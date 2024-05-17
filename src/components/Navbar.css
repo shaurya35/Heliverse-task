@@ -1,0 +1,45 @@
+.navbar_outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 87rem;
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar_logo{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* padding: 10px; */
+}
+
+.navbar_logo_img{
+    width: 15rem;
+}
+
+.navbar_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_button_link{
+    font-family: "Outfit", Sans-serif;
+    color: var(--primary-black);
+    text-decoration: none;
+    background-color: #ffffff;
+    /* padding: 1rem; */
+    padding: 1.25rem 2.813rem;
+    font-size: 1.2rem;
+    font-weight: 420;
+    border-radius: 5px;
+}
