@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #0e0f1a;
+}
+
 :root{
     --primary-white: #EEE5FF;
     --primary-gray: #EEE5FFBD;
