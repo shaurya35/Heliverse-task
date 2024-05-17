@@ -8,16 +8,16 @@ export default function Content() {
       <article className="article_outer">
         <div className="article">
           <div className="article_box1">
-            <div className="box1_b1">
+            <div className="article_box1_b1">
               Turn Your Cursor Into A Colorful <br /> Magic Wand & Charm Your
               Visitors
             </div>
-            <div className="box1_b2">
+            <div className="article_box1_b2">
               Motion Art for Elementor is a groundbreaking plugin that empowers
               you to effortlessly infuse <br /> your website with visually stunning
               motion art elements.
             </div>
-            <div className="box1_b3">
+            <div className="article_box1_b3">
               <a href="#" className="b3_link">
                 Purchase From Envato&nbsp;{" "}
                 <svg

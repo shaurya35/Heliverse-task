@@ -15,7 +15,7 @@ export default function Hero() {
               <div className="box1_b1_text1">
                 Transform <br /> Your Website
               </div>
-              <div className="box1_b1_text2">With Motion Art Effect</div>
+              <div className="box1_b1_text2">With Motion Art <br />Effect</div>
             </div>
             <div className="box1_b2"></div>
           </div>
