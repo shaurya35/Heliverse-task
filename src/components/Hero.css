@@ -104,3 +104,112 @@
     /* background-color: red; */
     line-height: 1.7;
 }
+
+
+.section2_outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    width: 87rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 12.5rem;
+    /* background-color: red; */
+}
+
+.section2_prop1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 50%;
+    /* background-color: blue */
+}
+
+.prop1_text1{
+    font-family: "Outfit", Sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-white);
+}
+
+.section2_prop2{
+    height: calc(100% - 50%);
+    width: 100%;
+    /* background-color: brown; */
+}
+
+.section2_prop2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-30{
+    width: 33.33%;
+}
+
+.width-according{
+    /* background-color:antiquewhite; */
+    width: 5.4rem;
+}
+
+.height-stars{
+    /* background-color: white; */
+    height: 70%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-rating{
+    height: 30%;
+    /* background-color:gray; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prop2_b1{
+    /* background-color: red; */
+    color: var(--primary-white);
+    font-size: 0.875rem;
+    display: flex;
+    height: 100%;
+    font-family: "Sora", Sans-serif;
+}
+
+.prop2_b2{
+    /* background-color: blue; */
+    color: var(--primary-white);
+    font-size: 0.875rem;
+    display: flex;
+    height: 100%;
+    font-family: "Sora", Sans-serif;
+}
+
+.prop2_b3{
+    /* background-color: green; */
+    font-size: 0.875rem;
+    color: var(--primary-white);
+    display: flex;
+    height: 100%;
+    font-family: "Sora", Sans-serif;
+}
+
+.rating_number{
+    font-weight: bold;
+}
