@@ -25,6 +25,7 @@
 
 .navbar_logo_img{
     width: 15rem;
+    cursor: pointer;
 }
 
 .navbar_button{
