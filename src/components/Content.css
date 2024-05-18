@@ -94,7 +94,7 @@
 
 .article2{
     width: 87rem;
-    background-color:chocolate;
+    /* background-color:chocolate; */
     height: 68.25rem;
     padding: 6.25rem 0rem;
 }
@@ -102,13 +102,16 @@
 .article2_heading{
     color: var(--primary-white);
     font-family: "Sora", Sans-serif; 
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 500;
     line-height: 3.75rem;
-    background-color:blue;
+    /* background-color:blue; */
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 7.5rem;
+    text-align: center;
+    margin-bottom:  3.125rem;
 }
 
 .article2_bigcard{
@@ -122,17 +125,19 @@
 .bigcard_card1{
     width: 50%;
     height: 100%;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: row;
+    /* margin-top: 10rem; */
+    /* margin-right: 20px; */
 }
 
 .bigcard_card2{
     width: 50%;
     height: 100%;
-    background-color:darkgray;
+    /* background-color:darkgray; */
     display: flex;
     justify-content: center;
     align-items: end;
@@ -140,31 +145,47 @@
 }
 
 .card1__render{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     height: 35.125rem;
-    width: 39.375rem;
-    background-color: var(--card-color);
+    /* width: 39.375rem; */
+    /* height: 80%; */
+    width: 98%;
+    background: var(--card-color);
+    margin-top: 10px;
+    /* margin: 50px 10px 120px; */
+    /* margin-right: 10px; overriding property */
 }
 
 .card2__render{
-    background-color: rebeccapurple;
-    height: 35.125rem;
-    width: 39.375rem;
-    background-color: var(--card-color);
+    /* background-color: rebeccapurple; */
+    height: 42rem;
+    /* width: 39.375rem; */
+    /* height: 80%; */
+    width: 98%;
+    background: var(--card-color);
+    display: flex;
+    /* margin: 80px 10px 10px; */
+    /* margin-left: 10px;  overriding property */
 }
 
 .card1__heading{
     font-family: "Sora", Sans-serif; 
-    font-size: 1.563rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: var(--primary-white);
+    height: 2.813rem;
+    width: 34.125rem;
 }
 
 .card2__heading{
     font-family: "Sora", Sans-serif; 
-    font-size: 1.563rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: var(--primary-white);
+    height: 2.813rem;
+    text-align: left;
+    /* background-color: red; */
+    width: 34.125rem;
 }
 
 .card1__content{
@@ -172,6 +193,8 @@
     font-size: 1.125rem;
     color: var(--primary-gray);
     font-weight: 300;
+    height: 3.75rem;
+    width: 34.125rem;
 }
 
 .card2__content{
@@ -179,16 +202,36 @@
     font-size: 1.125rem;
     color: var(--primary-gray);
     font-weight: 300;
+    height: 3.75rem;
+    width: 34.125rem;
 }
 
 .card1__render{
     border-radius: 1.25rem;
     border-color: #FFFFFF10;
     border-style: solid;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card2__render{
     border-radius: 1.25rem;
     border-color: #FFFFFF10;
     border-style: solid;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card1__display{
+    height: 22.063rem;
+}
+
+.card2__display{
+    height: 24.5rem;
 }

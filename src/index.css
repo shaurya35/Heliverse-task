@@ -16,7 +16,7 @@ body{
     --primary-black: #0D051F;
     --advertise-background: #262626;
     --advertise-button: #82B440;
-    --card-color: #1e172e;
+    --card-color: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
     --linear-gradient: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
 }
 
