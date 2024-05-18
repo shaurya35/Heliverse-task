@@ -122,11 +122,73 @@
 .bigcard_card1{
     width: 50%;
     height: 100%;
-    background-color: beige;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
 }
 
 .bigcard_card2{
     width: 50%;
     height: 100%;
     background-color:darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+}
+
+.card1__render{
+    background-color: rebeccapurple;
+    height: 35.125rem;
+    width: 39.375rem;
+    background-color: var(--card-color);
+}
+
+.card2__render{
+    background-color: rebeccapurple;
+    height: 35.125rem;
+    width: 39.375rem;
+    background-color: var(--card-color);
+}
+
+.card1__heading{
+    font-family: "Sora", Sans-serif; 
+    font-size: 1.563rem;
+    font-weight: 500;
+    color: var(--primary-white);
+}
+
+.card2__heading{
+    font-family: "Sora", Sans-serif; 
+    font-size: 1.563rem;
+    font-weight: 500;
+    color: var(--primary-white);
+}
+
+.card1__content{
+    font-family: "Outfit", Sans-serif; 
+    font-size: 1.125rem;
+    color: var(--primary-gray);
+    font-weight: 300;
+}
+
+.card2__content{
+    font-family: "Outfit", Sans-serif; 
+    font-size: 1.125rem;
+    color: var(--primary-gray);
+    font-weight: 300;
+}
+
+.card1__render{
+    border-radius: 1.25rem;
+    border-color: #FFFFFF10;
+    border-style: solid;
+}
+
+.card2__render{
+    border-radius: 1.25rem;
+    border-color: #FFFFFF10;
+    border-style: solid;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Content.css";
 import img from "../assets/motionarteffect-img5.png";
+import card2 from "../assets/motionarteffect-img10.png";
+import card1 from "../assets/motionarteffect-img11.png";
 
 export default function Content() {
   return (
@@ -14,8 +16,8 @@ export default function Content() {
             </div>
             <div className="article_box1_b2">
               Motion Art for Elementor is a groundbreaking plugin that empowers
-              you to effortlessly infuse <br /> your website with visually stunning
-              motion art elements.
+              you to effortlessly infuse <br /> your website with visually
+              stunning motion art elements.
             </div>
             <div className="article_box1_b3">
               <a href="#" className="b3_link">
@@ -42,10 +44,35 @@ export default function Content() {
       </article>
       <article className="article2_outer">
         <div className="article2">
-          <div className="article2_heading">Apply On Any Section Or Enable <br /> For Whole Page</div>
+          <div className="article2_heading">
+            Apply On Any Section Or Enable <br /> For Whole Page
+          </div>
           <div className="article2_bigcard">
-            <div className="bigcard_card1">card1</div>
-            <div className="bigcard_card2">card2</div>
+            <div className="bigcard_card1">
+              <div className="card1__render">
+                <div className="card1__heading">Apply On Section</div>
+                <div className="card1__content">
+                  Apply on section is a game-changer, offering an unparalleled
+                  way to <br />
+                  manage applications directly from your website.
+                </div>
+                <div className="card1__display">
+                  <img src={card1} alt="card" />
+                </div>
+              </div>
+            </div>
+            <div className="bigcard_card2">
+              <div className="card2__render">
+                <div className="card2__heading">Apply On Page</div>
+                <div className="card2__content">
+                  Take your website to new heights with Motion Art for Elementor.<br />
+                  Embrace the power of motion and animation.
+                </div>
+                <div className="card2__display">
+                  <img src={card2} alt="card" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
