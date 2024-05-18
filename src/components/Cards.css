@@ -33,3 +33,126 @@
     line-height: 1.875rem;
     text-align: center;
 }
+
+
+
+
+.footer2_outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    margin-top: 3.438rem;
+}
+
+.footer2{
+    width: 87rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer2_card1{
+    width: 33.33%;
+    height: 24.813rem;
+    /* background-color: blueviolet; */
+    /* padding: 30px 30px 40px 30px; */
+}
+
+.footer2_card2{
+    width: 33.33%;
+    height: 24.813rem;
+    /* background-color: brown; */
+    /* padding: 30px 30px 40px 30px; */
+}
+
+.footer2_card3{
+    width: 33.33%;
+    height: 24.813rem;
+    /* padding: 30px 30px 40px 30px; */
+}
+
+.footer2_card1_inner{
+    background: var(--card-color);
+    border-radius: 1.25rem;
+    border-color: #FFFFFF10;
+    border-style: solid;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 30px 30px 40px;
+}
+
+.footer2_card2_inner{
+    background: var(--card-color);
+    border-radius: 1.25rem;
+    border-color: #FFFFFF10;
+    border-style: solid;
+    height: 100%;
+    margin: 1rem;
+    padding: 30px 30px 40px;
+}
+
+.footer2_card3_inner{
+    background: var(--card-color);
+    border-radius: 1.25rem;
+    border-color: #FFFFFF10;
+    border-style: solid;
+    height: 100%;
+    margin: 1rem;
+    padding: 30px 30px 40px;
+}
+
+.footer2_card1_title{
+    font-size: 1.563rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    line-height: 2.813rem;
+    color: var(--primary-white);
+}
+
+.footer2_card2_title{
+    font-size: 1.563rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    line-height: 2.813rem;
+    color: var(--primary-white);
+}
+
+.footer2_card3_title{
+    font-size: 1.563rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    line-height: 2.813rem;
+    color: var(--primary-white);
+
+}
+
+.footer2_card1_content{
+    font-family: "Outfit", sans-serif;
+    color: var(--primary-gray);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 300;
+}
+
+.footer2_card2_content{
+    font-family: "Outfit", sans-serif;
+    color: var(--primary-gray);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 300;
+}
+
+.footer2_card3_content{
+    font-family: "Outfit", sans-serif;
+    color: var(--primary-gray);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 300;
+}
