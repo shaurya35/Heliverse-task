@@ -40,6 +40,15 @@ export default function Content() {
           </div>
         </div>
       </article>
+      <article className="article2_outer">
+        <div className="article2">
+          <div className="article2_heading">Apply On Any Section Or Enable <br /> For Whole Page</div>
+          <div className="article2_bigcard">
+            <div className="bigcard_card1">card1</div>
+            <div className="bigcard_card2">card2</div>
+          </div>
+        </div>
+      </article>
     </>
   );
 }

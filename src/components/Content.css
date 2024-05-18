@@ -83,3 +83,50 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.article2_outer{
+    /* background-color: gainsboro; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article2{
+    width: 87rem;
+    background-color:chocolate;
+    height: 68.25rem;
+    padding: 6.25rem 0rem;
+}
+
+.article2_heading{
+    color: var(--primary-white);
+    font-family: "Sora", Sans-serif; 
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3.75rem;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article2_bigcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 6.25rem;
+}
+
+.bigcard_card1{
+    width: 50%;
+    height: 100%;
+    background-color: beige;
+}
+
+.bigcard_card2{
+    width: 50%;
+    height: 100%;
+    background-color:darkgray;
+}
