@@ -7,7 +7,6 @@ import Content from './components/Content'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
 
-
 function App() {
   return (
     <>
