@@ -1,0 +1,42 @@
+.footer__1__outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--linear-gradient);
+    height: 3.5rem;
+}
+
+.footer__1{
+    width: 87rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer__1__content__1{
+    font-family: "Outfit", sans-serif;
+    color: var(--primary-white);
+    opacity: 0.7;
+}
+
+.footer__1__content__2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color:brown; */
+    width: 12rem;
+}
+
+.content__2__c1{
+    font-family: "Outfit", sans-serif;
+    color: var(--primary-white);
+    opacity: 0.7;
+}
+
+.content__2__c2{
+    font-family: "Outfit", sans-serif;
+    color: var(--primary-white);
+    opacity: 0.7;
+}

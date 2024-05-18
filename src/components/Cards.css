@@ -43,6 +43,7 @@
     align-items: center;
     /* background-color: aliceblue; */
     margin-top: 3.438rem;
+    margin-bottom: 9rem;
 }
 
 .footer2{
@@ -85,7 +86,7 @@
     align-items: start;
     flex-direction: column;
     margin: 1rem;
-    padding: 30px 30px 40px;
+    padding: 1.875rem 1.875rem 2.5rem;
 }
 
 .footer2_card2_inner{
@@ -95,7 +96,7 @@
     border-style: solid;
     height: 100%;
     margin: 1rem;
-    padding: 30px 30px 40px;
+    padding: 1.875rem 1.875rem 2.5rem;
 }
 
 .footer2_card3_inner{
@@ -105,7 +106,7 @@
     border-style: solid;
     height: 100%;
     margin: 1rem;
-    padding: 30px 30px 40px;
+    padding: 1.875rem 1.875rem 2.5rem;
 }
 
 .footer2_card1_title{
