@@ -3,6 +3,7 @@ import "./Content.css";
 import img from "../assets/motionarteffect-img5.png";
 import card2 from "../assets/motionarteffect-img10.png";
 import card1 from "../assets/motionarteffect-img11.png";
+import browser from "../assets/motionarteffect-img8.png";
 
 export default function Content() {
   return (
@@ -65,13 +66,33 @@ export default function Content() {
               <div className="card2__render">
                 <div className="card2__heading">Apply On Page</div>
                 <div className="card2__content">
-                  Take your website to new heights with Motion Art for Elementor.<br />
+                  Take your website to new heights with Motion Art for
+                  Elementor.
+                  <br />
                   Embrace the power of motion and animation.
                 </div>
                 <div className="card2__display">
                   <img src={card2} alt="card" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article className="article3_outer">
+        <div className="article3">
+          <div className="article3__inner">
+            <div className="article3__title">
+              Supported by All Popular Browsers
+            </div>
+            <div className="article3__spacing"></div>
+            <div className="article3__content">
+              Rest assured, Motion Art is designed to be compatible <br /> with
+              all major web browsers.
+            </div>
+            <div className="article3__spacing2"></div>
+            <div className="article3__display">
+              <img src={browser} className="display__browser" alt="browser" />
             </div>
           </div>
         </div>

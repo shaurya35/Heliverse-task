@@ -36,7 +36,7 @@
     /* background-color: burlywood; */
     width: 100%;
     height: 50%;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     font-weight: 500;
     font-family: "Sora", Sans-serif; 
     display: flex;
@@ -49,9 +49,10 @@
     /* background-color: gray; */
     width: 100%;
     height: 20%;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 300;
     font-family: "Outfit", Sans-serif; 
+    /* background-color: red; */
 }
 
 .article_box1_b3{
@@ -218,6 +219,7 @@
 }
 
 .card2__render{
+    /* hey border properties*/
     border-radius: 1.25rem;
     border-color: #FFFFFF10;
     border-style: solid;
@@ -235,3 +237,62 @@
 .card2__display{
     height: 24.5rem;
 }
+
+
+
+.article3_outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffffff; */
+    height: 30rem;
+}
+
+.article3{
+    width: 87rem;
+    /* background-color: blueviolet; */
+    height: 20.438rem;
+}
+
+.article3__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.25rem;
+    background: var(--card-color);
+    border-radius: 1.25rem;
+    border-color: #FFFFFF10;
+    border-style: solid;
+    height: 19.938rem;
+}
+
+.article3__title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: "Sora", Sans-serif;
+    color: var(--primary-white);
+    /* background-color: red; */
+}
+
+.article3__spacing{
+    height: 1.25rem;
+}
+
+.article3__content{
+    text-align: center;
+    font-family: "Outfit", Sans-serif;
+    color: var(--primary-gray);
+    font-size: 1.2rem;
+    line-height: 1.7;
+    /* background-color:green; */
+}
+
+.article3__spacing2{
+    height: 1.1rem;
+}
+
+.display__browser{
+    width: 30rem;
+}
+
