@@ -157,3 +157,32 @@
     line-height: 1.875rem;
     font-weight: 300;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .footer2 {
+      flex-wrap: wrap;
+    }
+  
+    .footer2_card1,
+    .footer2_card2,
+    .footer2_card3 {
+      width: calc(50% - 2rem); 
+      margin: 1rem;
+    }
+  }
+  
+ 
+  .footer2_card1_inner,
+  .footer2_card2_inner,
+  .footer2_card3_inner {
+    padding: 1.875rem;
+  }
+  
+  .footer2_card1_content,
+  .footer2_card2_content,
+  .footer2_card3_content {
+    margin-top: 1rem;
+  }
+  

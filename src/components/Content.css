@@ -296,3 +296,161 @@
     width: 30rem;
 }
 
+
+/* Media query for tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .article {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article_box1 {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .article_box1_b1 {
+    font-size: 2rem;
+  }
+
+  .article_box1_b2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .article_box1_b3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .article_box2 {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+/* Media query for mobile devices (portrait) */
+@media only screen and (max-width: 767px) {
+  .article {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article_box1 {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .article_box1_b1 {
+    font-size: 1.5rem;
+  }
+
+  .article_box1_b2 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .article_box1_b3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .article_box2 {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+
+/* Media query for tablets (portrait and landscape) */
+/* Media query for tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .article2 {
+    padding: 2rem;
+  }
+
+  .article2_heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .bigcard_card1,
+  .bigcard_card2 {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .card1__render,
+  .card2__render {
+    margin: 20px auto;
+    padding: 20px;
+  }
+}
+
+/* Media query for mobile devices (portrait) */
+@media only screen and (max-width: 767px) {
+  .article2 {
+    padding: 1rem;
+  }
+
+  .article2_heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .bigcard_card1,
+  .bigcard_card2 {
+    width: 90%;
+    margin-top: 15px;
+  }
+
+  .card1__render,
+  .card2__render {
+    margin: 15px auto;
+    padding: 15px;
+  }
+}
+
+/* Media query for tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .article3_outer {
+    padding: 2rem;
+  }
+
+  .article3__inner {
+    width: 90%;
+  }
+
+  .article3__title {
+    font-size: 1.5rem;
+  }
+
+  .article3__content {
+    font-size: 1rem;
+  }
+}
+
+/* Media query for mobile devices (portrait) */
+@media only screen and (max-width: 767px) {
+  .article3_outer {
+    padding: 1rem;
+  }
+
+  .article3__inner {
+    width: 90%;
+  }
+
+  .article3__title {
+    font-size: 1.2rem;
+  }
+
+  .article3__content {
+    font-size: 0.9rem;
+  }
+}
+
+
