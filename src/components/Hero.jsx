@@ -1,11 +1,84 @@
-import React from "react";
+import React, {useEffect} from 'react'
 import "./Hero.css";
 import img1 from "../assets/motionarteffect-img2.png";
 import img2 from "../assets/motionarteffect-img1.png";
 import img3 from "../assets/motionarteffect-img3.png";
 import stars from "../assets/motionarteffect-img4.png";
+import { gsap } from 'gsap'
 
 export default function Hero() {
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      gsap.from('.box2_b1_text1', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        stagger: 0.3,
+      });
+
+      gsap.from('.box1_b1_text1', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        stagger: 0.3,
+      });
+
+      gsap.from('.box1_b1_text2', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        stagger: 0.3,
+        delay: 0.5,
+      });
+
+      gsap.from('.box2_b1_text2', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        stagger: 0.3,
+        delay: 1,
+      });
+
+      gsap.from('.box2_b2', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        delay: 1.5,
+      });
+
+      gsap.from('.prop1_text1', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        delay: 2,
+      });
+
+      gsap.from('.prop2_b1', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        delay: 2.5,
+      });
+
+      gsap.from('.prop2_b2', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        delay: 2.7,
+      });
+
+      gsap.from('.prop2_b3', {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        delay: 2.9,
+      });
+
+    }, 100);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <>
       <section className="section_outer">
