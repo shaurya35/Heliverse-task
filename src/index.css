@@ -22,3 +22,10 @@ body{
     --linear-gradient: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
 }
 
+#particles canvas{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
